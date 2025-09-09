@@ -1,0 +1,15 @@
+package lia;
+
+public class Main {
+    
+    public static void main(String[] args) {
+        String nama = "nur aslia arifah";
+        int umur = 19;
+        double tinggi = 150.0;
+        System.out.printf("nama saya %s,aku berumur %d,dan tinggi aku adalah %.1f \n" ,nama,umur,tinggi);
+        System.out.println("nama : " + nama);
+        System.out.print("umur : " + umur);
+        
+    }
+    
+}
