@@ -25,11 +25,11 @@ public class Main {
         System.out.print("kelas:");
         kelas = input.next().charAt(0);
         System.out.println(kelas);
-        Float berat;
+        float berat;
         System.out.print("berat:");
         berat = input.nextFloat();
         System.out.println(berat);
-        Double tinggi;
+        double tinggi;
         System.out.print("tinggi:");
         tinggi = input.nextDouble();
         System.out.println(tinggi);
