@@ -33,7 +33,7 @@ public class Main {
         System.out.print("tinggi:");
         tinggi = input.nextDouble();
         System.out.println(tinggi);
-        /*jadi commit hari yaitu membuat biodata dengan menggunakan tipe data
+        /*jadi commit hari ini yaitu membuat biodata dengan menggunakan tipe data
             string,int,char,float,double*/
         
     }
