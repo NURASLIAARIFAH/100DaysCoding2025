@@ -4,24 +4,37 @@ public class Main {
     
     public static void main(String[] args) {
         // Biodata saya
-        String nama = "Nur Aslia Arifah";
-        String nim = "D0225023";
-        String alamat = "Pappota";
-        int umur = 19;
-        char kelas ='C';
-        Float berat = 53.0f;
-        Double tinggi = 150.0;
-        // Menampilkan output biodata
-        System.out.println("Nama \t: " + nama);
-        System.out.println("Nim \t: " + nim);
-        System.out.println("Alamat \t: " + alamat);
-        System.out.println("Umur \t: " + umur + " tahun");
-        System.out.println("Kelas \t: " + kelas);
-        System.out.println("Berat \t: " + berat);
-        System.out.println("Tinggi \t: " + tinggi);
-        /* Membuat program biodata sederhana dengan menggunakan tipe data
-         * string, integer, char, float, dan double
-         */
+        String nama;
+        System.out.print("nama:") ;
+        nama = input.nextLine();
+        System.out.println(nama); // yang akan mencetak di output
+        String nim;
+        System.out.print("nim:");
+        nim = input.nextLine();
+        System.out.println(nim);
+        String alamat;
+        System.out.print("alamat:");
+        alamat = input.nextLine();
+        System.out.println(alamat);
+        int umur;
+        System.out.print("umur:");
+        umur = input.nextInt();
+        System.out.println(umur);
+        char kelas;
+        System.out.print("kelas:");
+        kelas = input.next().charAt(0);
+        System.out.println(kelas);
+        Float berat;
+        System.out.print("berat:");
+        berat = input.nextFloat();
+        System.out.println(berat);
+        Double tinggi;
+        System.out.print("tinggi:");
+        tinggi = input.nextDouble();
+        System.out.println(tinggi);
+        /*jadi commit hari yaitu membuat biodata dengan menggunakan tipe data
+            string,int,char,float,double*/
+        
     }
     
 }
