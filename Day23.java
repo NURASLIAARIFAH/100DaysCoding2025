@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
       Scanner s = new Scanner (System.in);
-        System.out.println("panjang : ");
+        System.out.print("panjang : ");
         float panjang = s.nextFloat();
         System.out.print("lebar : ");
         float lebar = s.nextFloat();
