@@ -11,7 +11,7 @@ public class Main {
         int c  = s.nextInt();
         //Update nilai a
         a = a + (b*c);
-        boolean hasil = ((a % 2 == 0)&&(a/b>c))||((a-b)<=10);
+        boolean hasil = (a % 2 == 0 && a/b>c || a-b <=10);
         System.out.println("Nilai akhir = " + a);
         System.out.println("Hasil logika = " + hasil);
     }
