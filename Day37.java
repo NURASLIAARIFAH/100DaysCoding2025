@@ -11,7 +11,7 @@ public class Main {
             System.out.println("Puluhan:");
         }else if(angka <= 999) 
             System.out.println("Ratusan:");
-        }if(angka % 2 == 0){
+        if(angka % 2 == 0){
             System.out.println("Genap");
         }else{
             System.out.println("Ganjil");
