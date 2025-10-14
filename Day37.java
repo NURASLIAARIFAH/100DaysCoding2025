@@ -5,8 +5,9 @@ public class Main {
         Scanner s = new Scanner(System.in);
         System.out.print("Angka:");
         int angka = s.nextInt();
-        int hasil = angka% 2;
-        String kondisi = hasil == 0? "Genap" : "Ganjil";
-        System.out.println(kondisi);
+        if(angka % 2 == 0){
+            System.out.println("Genap:");
+        }else{
+            System.out.println("Ganjil:");
         }
         }
