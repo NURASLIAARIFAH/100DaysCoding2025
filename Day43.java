@@ -9,11 +9,11 @@ public class Main {
         String ganjilGenap = "";
         String bisaDibagi = "";
         
-        if(angka <= 9){
+        if(Math.abs(angka) <= 9){
             Angka = "satuan";
-        }else if(angka <= 99){
+        }else if(Math.abs(angka) <= 99){
             Angka = "puluhan";
-    }else if(angka <= 999){
+    }else if(Math.abs(angka) <= 999){
         Angka = "ratusan";
     }else{
         bisaDibagi = "angka yang tidak habis dibagi";
