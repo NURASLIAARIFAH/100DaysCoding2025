@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.print("Masukkan angka 1-5: ");
-        int angka = s.nextInt();
+        byte angka = s.nextByte();
         switch(angka){
             case 1:
             System.out.println("ini adalah angka satu");
