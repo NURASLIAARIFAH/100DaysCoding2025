@@ -28,15 +28,12 @@ public class Main {
             if(nilai > nilaiTerbesar){
                 nilaiTerbesar = nilai;
             }}                          
+        double rataRata = (double)totalNilai / jumlahValid;
         System.out.println("Total nilai valid: " + totalNilai);
         System.out.println("Jumlah nilai valid: " + jumlahValid);
         System.out.println("Jumlah nilai tidak valid: " + jumlahTidakValid);
-                            
-        if(jumlahValid > 0){
-            double rataRata = (double)totalNilai / jumlahValid;
-                System.out.println("Nilai valid terkecil: " + nilaiTerkecil);
-                System.out.println("Nilai valid terbesar: " + nilaiTerbesar);
-                System.out.println("Rata-rata valid: " + rataRata);
-        }else{
-                System.out.println("tidak valid");
-    }}}
+        System.out.println("Nilai valid terkecil: " + nilaiTerkecil);
+        System.out.println("Nilai valid terbesar: " + nilaiTerbesar);
+        System.out.println("Rata-rata valid: " + rataRata);
+    }}
+    
